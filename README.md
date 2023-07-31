@@ -21,3 +21,9 @@ CREATE TABLE student (
     marks INT
 )
 ```
+
+## Jupyter
+From [my pandas](https://github.com/ljloaizap/pandas) repo, Jupyter section, just replaced:
+```sh
+pipenv run python -m ipykernel install --user --name=coding_with_darshil
+```
