@@ -27,3 +27,8 @@ From [my pandas](https://github.com/ljloaizap/pandas) repo, Jupyter section, jus
 ```sh
 pipenv run python -m ipykernel install --user --name=coding_with_darshil
 ```
+
+
+
+... to be continued
+https://youtu.be/POjDCe-_G8k?t=862
