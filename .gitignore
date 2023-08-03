@@ -1,0 +1,5 @@
+.vscode/*
+
+notebooks/.ipynb_checkpoints/*
+
+.env
