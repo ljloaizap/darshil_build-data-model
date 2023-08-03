@@ -10,6 +10,11 @@ Run a container with messup intentions to learn data modeling
 docker run -d --name postgres_messup --env-file .env -p 5432:5432 postgres
 ```
 
+Connect to the db using `psql` tool
+```bash
+psql -h localhost -d postgres -U postgres -W
+```
+
 DDL: run the following script 
 ```sql
 CREATE TABLE student (
@@ -27,8 +32,3 @@ From [my pandas](https://github.com/ljloaizap/pandas) repo, Jupyter section, jus
 ```sh
 pipenv run python -m ipykernel install --user --name=coding_with_darshil
 ```
-
-
-
-... to be continued
-https://youtu.be/POjDCe-_G8k?t=862
